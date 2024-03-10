@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerConYoung : MonoBehaviour
 {
-    float moveSpeed = 5f;
+    float moveSpeed = 19f;
     float rotationSpeed = 130f;
-    float jumpForce = 5f;
+    float jumpForce = 9f;
 
     float horizontalInput;
     float verticalInput;
@@ -18,6 +18,10 @@ public class PlayerConYoung : MonoBehaviour
     Rigidbody rb;
     Animator anim;
 
+    public GameObject enemy;
+
+    float attackCooldown = 2f; // Cooldown time in seconds between attacks
+    float lastAttackTime = -2f;
 
     void Start()
     {
@@ -45,14 +49,16 @@ public class PlayerConYoung : MonoBehaviour
         // When I press shift, the character will run
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            moveSpeed = 10f;
+            moveSpeed = 25f;
             isRunning = true;
         }
         else
         {
             isRunning = false;
-            moveSpeed = 5f;
+            moveSpeed = 19f;
         }
+
+        float distance = Vector3.Distance(transform.position, enemy.transform.position);
 
         //if we press the left click, the character will attack
         if (Input.GetMouseButton(0))
@@ -89,4 +95,21 @@ public class PlayerConYoung : MonoBehaviour
             isGrounded = true;
         }
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        //if you collide with the enemy, the enemy will take damage
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            if (isAttacking && Time.time - lastAttackTime >= attackCooldown)
+            {
+                isAttacking = false;
+                print("Enemy hit");
+                enemy.GetComponent<Boss>().health -= 50;
+                lastAttackTime = Time.time;
+            }
+        }
+    }
+
+    
 }

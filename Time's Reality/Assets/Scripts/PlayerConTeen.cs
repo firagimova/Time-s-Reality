@@ -113,10 +113,12 @@ public class PlayerConTeen : MonoBehaviour
         //if you collide with the enemy, the enemy will take damage
         if (other.gameObject.CompareTag("Enemy"))
         {
-            if (isAttacking)
+            if (isAttacking && Time.time - lastAttackTime >= attackCooldown)
             {
+                isAttacking = false;
                 print("Enemy hit");
                 enemy.GetComponent<Boss>().health -= 50;
+                lastAttackTime = Time.time;
             }
         }
     }
