@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8001 MB
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16220 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\2022.3.11f1\Editor\Unity.exe
+C:\Program Files\Unity 2022.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/Time-s-Reality/Time's Reality
+C:/Users/karat/Documents/GitHub/Time-s-Reality/Time's Reality
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58602
-Successfully changed project path to: D:/Time-s-Reality/Time's Reality
-D:/Time-s-Reality/Time's Reality
+51606
+Successfully changed project path to: C:/Users/karat/Documents/GitHub/Time-s-Reality/Time's Reality
+C:/Users/karat/Documents/GitHub/Time-s-Reality/Time's Reality
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,68 +49,65 @@ D:/Time-s-Reality/Time's Reality
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16304] Host "[IP] 192.168.216.1 [Port] 0 [Flags] 2 [Guid] 2112647079 [EditorId] 2112647079 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TAGQ0IR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13884] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1639500143 [EditorId] 1639500143 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q7LKPMH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16304] Host "[IP] 192.168.216.1 [Port] 0 [Flags] 2 [Guid] 2112647079 [EditorId] 2112647079 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TAGQ0IR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13884] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1639500143 [EditorId] 1639500143 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q7LKPMH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 56.98 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 15.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
-[Subsystems] Discovering subsystems at path D:/Unity/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Time-s-Reality/Time's Reality/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/karat/Documents/GitHub/Time-s-Reality/Time's Reality/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   NVIDIA
-    VRAM:     1983 MB
-    Driver:   30.0.15.1169
+    VRAM:     5955 MB
+    Driver:   31.0.15.5161
 Initialize mono
-Mono path[0] = 'D:/Unity/2022.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Mono path[0] = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/Unity/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019265 seconds.
-- Loaded All Assemblies, in  1.503 seconds
+Register platform support module: C:/Program Files/Unity 2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008608 seconds.
+- Loaded All Assemblies, in  0.670 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1089 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.353 seconds
-Domain Reload Profiling: 3856ms
-	BeginReloadAssembly (427ms)
+- Finished resetting the current domain, in  0.466 seconds
+Domain Reload Profiling: 1134ms
+	BeginReloadAssembly (222ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (145ms)
-	RebuildNativeTypeToScriptingClass (47ms)
-	initialDomainReloadingComplete (198ms)
-	LoadAllAssembliesAndSetupDomain (685ms)
-		LoadAssemblies (425ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (219ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (679ms)
-			TypeCache.Refresh (675ms)
-				TypeCache.ScanAssembly (627ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (225ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (2355ms)
+	FinalizeReload (468ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2117ms)
+		SetupLoadedEditorAssemblies (355ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1515ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (397ms)
-			ProcessInitializeOnLoadMethodAttributes (184ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,56 +115,55 @@ Domain Reload Profiling: 3856ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.578 seconds
-Refreshing native plugins compatible for Editor in 11.37 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.120 seconds
+Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.623 seconds
-Domain Reload Profiling: 6200ms
-	BeginReloadAssembly (543ms)
+- Finished resetting the current domain, in  0.953 seconds
+Domain Reload Profiling: 2069ms
+	BeginReloadAssembly (278ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (141ms)
-	RebuildNativeTypeToScriptingClass (47ms)
-	initialDomainReloadingComplete (139ms)
-	LoadAllAssembliesAndSetupDomain (1705ms)
-		LoadAssemblies (1146ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (690ms)
+		LoadAssemblies (537ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (881ms)
-			TypeCache.Refresh (780ms)
-				TypeCache.ScanAssembly (717ms)
-			ScanForSourceGeneratedMonoScriptInfo (60ms)
-			ResolveRequiredComponents (35ms)
-	FinalizeReload (3624ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (254ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (954ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2870ms)
+		SetupLoadedEditorAssemblies (689ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (83ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (231ms)
-			ProcessInitializeOnLoadAttributes (2443ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (523ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
-Refreshing native plugins compatible for Editor in 8.38 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 8.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3259 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (130.2 KB). Loaded Objects now: 3722.
-Memory consumption went from 130.9 MB to 130.7 MB.
-Total: 15.738800 ms (FindLiveObjects: 0.568800 ms CreateObjectMapping: 1.332500 ms MarkObjects: 13.548800 ms  DeleteObjects: 0.286400 ms)
+Unloading 3272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (130.3 KB). Loaded Objects now: 3735.
+Memory consumption went from 129.6 MB to 129.5 MB.
+Total: 4.785300 ms (FindLiveObjects: 0.351200 ms CreateObjectMapping: 0.320600 ms MarkObjects: 3.671400 ms  DeleteObjects: 0.439900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,420 +180,857 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1577177.369731 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(8d792d51733abc5429db1deb7e1b60c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(8d792d51733abc5429db1deb7e1b60c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210209d4366a7223fc750a7357616632') in 0.029088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 34.219794 seconds.
-  path: Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat
-  artifactKey: Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat using Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72776ba127b57fb0f2e01f72a38ea903') in 1.073460 seconds
+  Time since last request: 36880.238476 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Boss_1_Emissive.png
+  artifactKey: Guid(138ca8d5e39cbdb4e8a855c8ce51e453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Boss_1_Emissive.png using Guid(138ca8d5e39cbdb4e8a855c8ce51e453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e585ad7facc0f1df9071b6147aa4d6f7') in 0.118688 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/SkySeries Freebie/DarkStorm.mat
-  artifactKey: Guid(2039a0ad0a9d05549928b70362f54902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/DarkStorm.mat using Guid(2039a0ad0a9d05549928b70362f54902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c3cfd6afe48e44a3ab80a45a2e0861') in 0.336579 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_Normal.png
+  artifactKey: Guid(cc24d8f8c9278714093bddd23e1cd13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_Normal.png using Guid(cc24d8f8c9278714093bddd23e1cd13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aa66226537e8260d6d7bbb9cd9a7a5') in 0.024611 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.010258 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri
-  artifactKey: Guid(d78fe5a22bec38d43bbe7e846ac3925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri using Guid(d78fe5a22bec38d43bbe7e846ac3925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73c9420183901d71f814914a8b4b472') in 0.001495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.029787 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr
-  artifactKey: Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr using Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26729fb2ba460b121418cc910bdd8544') in 0.129719 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/duvar_Mixed_AO.png
+  artifactKey: Guid(8619f7d5ef8da3b4887bbba3ffdce1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/duvar_Mixed_AO.png using Guid(8619f7d5ef8da3b4887bbba3ffdce1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac62d8845db1e4072f145b49bba7b09c') in 0.021986 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr
-  artifactKey: Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr using Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c95543983e502c64f2fce34f71c0aa0') in 0.083067 seconds
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Boss_1_Metallic.png
+  artifactKey: Guid(994c7c1dbc29a69499cfdb77a3c940cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Boss_1_Metallic.png using Guid(994c7c1dbc29a69499cfdb77a3c940cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc3e5fe63ff990d7c1466492b121fc6') in 0.022225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_Metallic.png
+  artifactKey: Guid(7300b90e2af175444baab33e2e70457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_Metallic.png using Guid(7300b90e2af175444baab33e2e70457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0446bc8ec4c02f723891db316286fc') in 0.016299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Boss_1_Normal_OpenGL.png
+  artifactKey: Guid(7bba5777198476742b4e9f702b1d65eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Boss_1_Normal_OpenGL.png using Guid(7bba5777198476742b4e9f702b1d65eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f23196cb7e53bbf5831c401eba6127d') in 0.014720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Boss_1_Height.png
+  artifactKey: Guid(6c0e04717cade6a469219bf57e32c5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Boss_1_Height.png using Guid(6c0e04717cade6a469219bf57e32c5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd827c354417accef53106b866650f3c4') in 0.014932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/duvar_Height.png
+  artifactKey: Guid(08a0d2f0c6755ca47b6fe9a2c77fc656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/duvar_Height.png using Guid(08a0d2f0c6755ca47b6fe9a2c77fc656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f08e3b1ee48ba3a553c5bf443c6121') in 0.014043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_Base_color.png
+  artifactKey: Guid(f551cddb3fe5c2146a3bba1b98add096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_Base_color.png using Guid(f551cddb3fe5c2146a3bba1b98add096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e0f57eeef14fa0e5f91fcda2b9e716') in 0.016777 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000047 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr
-  artifactKey: Guid(740f96d568f4f3e40b049c40f11603e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr using Guid(740f96d568f4f3e40b049c40f11603e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a499c1a82d47411f028bcbb5e8dd47') in 0.101042 seconds
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_Normal_OpenGL.png
+  artifactKey: Guid(de316e2fe0a66a043b7a9d6267810c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_Normal_OpenGL.png using Guid(de316e2fe0a66a043b7a9d6267810c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20e8d7dd2e9ade49c99312b2e25423d') in 0.019869 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr
-  artifactKey: Guid(09999639e73bcd64abda22253af612d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr using Guid(09999639e73bcd64abda22253af612d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348a3705e0d7758b7ed2a3d35ea37ae7') in 0.187240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 17.532727 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Materials/DarkStorm4K.mat
-  artifactKey: Guid(a6f5933be61fc3c49b9b8e78a22dcc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/DarkStorm4K.mat using Guid(a6f5933be61fc3c49b9b8e78a22dcc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083cfeea61664e83ac20dc096bfb1bbd') in 0.159662 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/duvar_Base_color.png
+  artifactKey: Guid(d641f11174632b24abcb36ec2f03b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/duvar_Base_color.png using Guid(d641f11174632b24abcb36ec2f03b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec562d04df54186d066466a04f989e93') in 0.015803 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 73.228705 seconds.
-  path: Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat
-  artifactKey: Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat using Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdde2bf7058d845658eecd54ef2ebd8') in 0.082334 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/duvar_Metallic.png
+  artifactKey: Guid(608e6fa9c066a9e4d825f595f0b93217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/duvar_Metallic.png using Guid(608e6fa9c066a9e4d825f595f0b93217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe753202dbfc648dd16ce1e6bd82ae3') in 0.019274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/duvar_Normal.png
+  artifactKey: Guid(e3f162eb2ffb0314c94bb0081eacc718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/duvar_Normal.png using Guid(e3f162eb2ffb0314c94bb0081eacc718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183059d3011a3dd46aeb64e930b7df08') in 0.019668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Boss_1_Roughness.png
+  artifactKey: Guid(b13fa18456cd5814b86ca6321eaf306d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Boss_1_Roughness.png using Guid(b13fa18456cd5814b86ca6321eaf306d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c431a1b92ba23ac2d262b67a672b56e7') in 0.020814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_Mixed_AO.png
+  artifactKey: Guid(0d3924bc368f87c4a91359e0a0360f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_Mixed_AO.png using Guid(0d3924bc368f87c4a91359e0a0360f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d1c6d4088d5e9f722ff369f88dd733') in 0.016446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.354196 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Base_color.png
+  artifactKey: Guid(be0625966d20bc24a97f2c36e84018c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Base_color.png using Guid(be0625966d20bc24a97f2c36e84018c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa75bfd5a4d16759b078f24214e737b') in 0.016917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/tuzak_Normal.png
+  artifactKey: Guid(883f6eaaf0ae9a443b79059ff142e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/tuzak_Normal.png using Guid(883f6eaaf0ae9a443b79059ff142e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff76cffef8d8e72c649b4122843c1df4') in 0.016736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/NPC_Metallic.png
+  artifactKey: Guid(e30c148fd688a0f43be2c6924f353cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/NPC_Metallic.png using Guid(e30c148fd688a0f43be2c6924f353cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464b41b4738a6c0b1dccb4fde322de92') in 0.019986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Savas_alanı_Base_color.png
+  artifactKey: Guid(63336a52316c5234db50bb076e896ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Savas_alanı_Base_color.png using Guid(63336a52316c5234db50bb076e896ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b129ded0316bf9c1cad593034a6a166') in 0.021537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/NPC_Mixed_AO.png
+  artifactKey: Guid(083e2a75437f1234d96ec49aea5d597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/NPC_Mixed_AO.png using Guid(083e2a75437f1234d96ec49aea5d597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0256d85acd02a354f68653312c4ee31c') in 0.027209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_001_Base_color.png
+  artifactKey: Guid(67188494249c0814a8f1770b2c83b10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_001_Base_color.png using Guid(67188494249c0814a8f1770b2c83b10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1c346f9f7fea2d7afa02a0da9e8bb1') in 0.022177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Mixed_AO.png
+  artifactKey: Guid(17fe03cbc508c3a4eb844e7d52cb46c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Mixed_AO.png using Guid(17fe03cbc508c3a4eb844e7d52cb46c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f484a32ecdff5e3d6ee4eff1af704dab') in 0.021158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Normal_OpenGL.png
+  artifactKey: Guid(5373c9de56cb8184da2177f7ecaa70be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Normal_OpenGL.png using Guid(5373c9de56cb8184da2177f7ecaa70be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a534f30f4a9a80b37104056b6036fa8') in 0.020171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Savas_alanı_Normal_DirectX.png
+  artifactKey: Guid(95e293a55160baf458ffb6c1e3d4fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Savas_alanı_Normal_DirectX.png using Guid(95e293a55160baf458ffb6c1e3d4fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c8b21f0d5c2ae1113bc0bd2046d789') in 0.023337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000963 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Normal.png
+  artifactKey: Guid(9bfcc2259feaf6042965349e8d33a804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Normal.png using Guid(9bfcc2259feaf6042965349e8d33a804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534814bf2df6533ee9e60ec8bc07cd46') in 0.018589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/tuzak_Roughness.png
+  artifactKey: Guid(573ec21a0e25fab4da139fb0979a57be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/tuzak_Roughness.png using Guid(573ec21a0e25fab4da139fb0979a57be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4bc68c45514eb0a79120af9df71b1a') in 0.026327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/tuzak_Mixed_AO.png
+  artifactKey: Guid(a70f897723bbd374c99f2b499833b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/tuzak_Mixed_AO.png using Guid(a70f897723bbd374c99f2b499833b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf037644314f38d4500ebde4a92fd1d') in 0.020561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/tuzak_Height.png
+  artifactKey: Guid(d6437a10fca0fbf47a84eef1b01c9070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/tuzak_Height.png using Guid(d6437a10fca0fbf47a84eef1b01c9070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6cb301310cc86f8e5da6a504362d34') in 0.022218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Height.png
+  artifactKey: Guid(55136699943fdc945b35bbdd16af8d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Height.png using Guid(55136699943fdc945b35bbdd16af8d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d02a3ac423b23c27dac1d44c63e4fc8') in 0.023600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/tuzak_Normal_OpenGL.png
+  artifactKey: Guid(1d3643f9833a57b4c949874aa765cc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/tuzak_Normal_OpenGL.png using Guid(1d3643f9833a57b4c949874aa765cc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3db9707df8b1b122bdcb29c89a9b61d') in 0.020247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Roughness.png
+  artifactKey: Guid(953e04965c08c8c44a7c7a4d49fd3089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Roughness.png using Guid(953e04965c08c8c44a7c7a4d49fd3089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517841fcc5e33794903e3b7ed0ad925d') in 0.022577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/NPC_Normal.png
+  artifactKey: Guid(51289308e4a205f43868c9f2a50bb0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/NPC_Normal.png using Guid(51289308e4a205f43868c9f2a50bb0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6871ce11b6921692afc053160673e6c3') in 0.020047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.819835 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Savas_alanı_Normal_DirectX.png
+  artifactKey: Guid(95e293a55160baf458ffb6c1e3d4fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Savas_alanı_Normal_DirectX.png using Guid(95e293a55160baf458ffb6c1e3d4fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757173bb58960f476cf3043a36bde01b') in 0.071962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.326614 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_001_Normal.png
+  artifactKey: Guid(994fed50b0fffa14189edff1b971d9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_001_Normal.png using Guid(994fed50b0fffa14189edff1b971d9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b954538f79b4ed55bb2e6b6ea6a024') in 0.022594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_001_Normal_OpenGL.png
+  artifactKey: Guid(0d273bd7b5c2b3e4e98e1056d0f707e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_001_Normal_OpenGL.png using Guid(0d273bd7b5c2b3e4e98e1056d0f707e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5fdc84b3d4d70d1d06a9e0b36ff44b') in 0.032142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru_Roughness.png
+  artifactKey: Guid(59b6d1229cf0dfd42aa09a520fb8c20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru_Roughness.png using Guid(59b6d1229cf0dfd42aa09a520fb8c20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be680a6811c797e87a3cdd8166543d0') in 0.028193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_001_Roughness.png
+  artifactKey: Guid(26a112212046d234e823e0f2f5221596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_001_Roughness.png using Guid(26a112212046d234e823e0f2f5221596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6200eacc8d0c0e95aa4a9d92959b8942') in 0.024800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zıplama_zemın_Base_color.png
+  artifactKey: Guid(011f5a03779226b4188abcf83ee482ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zıplama_zemın_Base_color.png using Guid(011f5a03779226b4188abcf83ee482ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547025e166aa6bd9e25ccdb513974eea') in 0.018445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zıplama_zemın_Roughness.png
+  artifactKey: Guid(63f85d43240e2df4bacc2e61e9c9204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zıplama_zemın_Roughness.png using Guid(63f85d43240e2df4bacc2e61e9c9204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e3597a14bffbe07ea1769c8d093c8d') in 0.022336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru_Base_color.png
+  artifactKey: Guid(bfa7b3e04fee36c489b720d34def796f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru_Base_color.png using Guid(bfa7b3e04fee36c489b720d34def796f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4e45f37f2bcb7c84ee23d7db647af2') in 0.025750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zıplama_zemın_Normal_OpenGL.png
+  artifactKey: Guid(9f6fee5e5bdaa734f9ff11f14a931cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zıplama_zemın_Normal_OpenGL.png using Guid(9f6fee5e5bdaa734f9ff11f14a931cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85393d3a755814697ba771b1aef0dca') in 0.038653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru_Metallic.png
+  artifactKey: Guid(2883169cf85b8c24c949f34aa7704718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru_Metallic.png using Guid(2883169cf85b8c24c949f34aa7704718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dddf603033c5550ddbd9ebf8eb523a8') in 0.018716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.600706 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Boss_1.mat
+  artifactKey: Guid(332b2e67506eace48b98d129c67fd4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Boss_1.mat using Guid(332b2e67506eace48b98d129c67fd4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84be77c9f013a4f338d685ed27f12012') in 0.095006 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.340 seconds
-Refreshing native plugins compatible for Editor in 88.32 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  8.206 seconds
-Domain Reload Profiling: 13547ms
-	BeginReloadAssembly (966ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (415ms)
-	RebuildCommonClasses (176ms)
-	RebuildNativeTypeToScriptingClass (69ms)
-	initialDomainReloadingComplete (262ms)
-	LoadAllAssembliesAndSetupDomain (3867ms)
-		LoadAssemblies (3708ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (520ms)
-			TypeCache.Refresh (259ms)
-				TypeCache.ScanAssembly (5ms)
-			ScanForSourceGeneratedMonoScriptInfo (165ms)
-			ResolveRequiredComponents (90ms)
-	FinalizeReload (8208ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3085ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (267ms)
-			SetLoadedEditorAssemblies (38ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (709ms)
-			ProcessInitializeOnLoadAttributes (1951ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (3ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Script is not up to date after domain reload: guid(3353e60940b482e49b17ef8491144924) path("Assets/Scripts/MainMenuMovement.cs") state(2)
-Refreshing native plugins compatible for Editor in 6.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (0.8 MB). Loaded Objects now: 3781.
-Memory consumption went from 134.4 MB to 133.6 MB.
-Total: 13.376000 ms (FindLiveObjects: 0.776200 ms CreateObjectMapping: 0.616200 ms MarkObjects: 11.075900 ms  DeleteObjects: 0.905300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.482 seconds
-Refreshing native plugins compatible for Editor in 9.87 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.350 seconds
-Domain Reload Profiling: 5831ms
-	BeginReloadAssembly (444ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (103ms)
-	RebuildCommonClasses (133ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (791ms)
-		LoadAssemblies (900ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (23ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (83ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (4351ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2340ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (239ms)
-			SetLoadedEditorAssemblies (46ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (224ms)
-			ProcessInitializeOnLoadAttributes (1754ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 13.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3264 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (0.8 MB). Loaded Objects now: 3797.
-Memory consumption went from 136.6 MB to 135.8 MB.
-Total: 24.314000 ms (FindLiveObjects: 0.767200 ms CreateObjectMapping: 1.505800 ms MarkObjects: 20.217000 ms  DeleteObjects: 1.821700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru.mat
+  artifactKey: Guid(c03cf7abd0b5af242bca9f96e1b16f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru.mat using Guid(c03cf7abd0b5af242bca9f96e1b16f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80e2eedf24bcc45b402801df3df1eea') in 0.022998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 343.494414 seconds.
-  path: Assets/Scripts/MainMenuMovement.cs
-  artifactKey: Guid(3353e60940b482e49b17ef8491144924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenuMovement.cs using Guid(3353e60940b482e49b17ef8491144924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4df511380eebd005ee337e5909611d9') in 0.018099 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru.mat
+  artifactKey: Guid(d2e049c9e83d6ba4eb8d3df0c38b9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru.mat using Guid(d2e049c9e83d6ba4eb8d3df0c38b9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8827ef5ab0a1a3e755f8761b128e449d') in 0.017320 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.289 seconds
-Refreshing native plugins compatible for Editor in 5.72 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 10.170 seconds
-Domain Reload Profiling: 11459ms
-	BeginReloadAssembly (444ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (91ms)
-	RebuildCommonClasses (102ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (625ms)
-		LoadAssemblies (850ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (45ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (10172ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (6408ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (201ms)
-			SetLoadedEditorAssemblies (73ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (478ms)
-			ProcessInitializeOnLoadAttributes (5536ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3263 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (0.8 MB). Loaded Objects now: 3812.
-Memory consumption went from 138.3 MB to 137.5 MB.
-Total: 10.886200 ms (FindLiveObjects: 1.874400 ms CreateObjectMapping: 0.754500 ms MarkObjects: 7.441300 ms  DeleteObjects: 0.814200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_001.mat
+  artifactKey: Guid(c226db9ed8353e04c8e72b95b110cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_001.mat using Guid(c226db9ed8353e04c8e72b95b110cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2371c9ef32d40e437224bbe84b3d1fc') in 0.012473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.812 seconds
-Refreshing native plugins compatible for Editor in 10.02 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.330 seconds
-Domain Reload Profiling: 9141ms
-	BeginReloadAssembly (1024ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (171ms)
-	RebuildCommonClasses (658ms)
-	RebuildNativeTypeToScriptingClass (360ms)
-	initialDomainReloadingComplete (525ms)
-	LoadAllAssembliesAndSetupDomain (1241ms)
-		LoadAssemblies (1871ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (100ms)
-			TypeCache.Refresh (38ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (5332ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3342ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (64ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (251ms)
-			ProcessInitializeOnLoadAttributes (2924ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 9.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3264 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (0.8 MB). Loaded Objects now: 3827.
-Memory consumption went from 140.5 MB to 139.7 MB.
-Total: 15.991100 ms (FindLiveObjects: 0.692100 ms CreateObjectMapping: 0.643600 ms MarkObjects: 12.867100 ms  DeleteObjects: 1.785900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/duvar.mat
+  artifactKey: Guid(73d7110b5c4125d4191263a6c3befbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/duvar.mat using Guid(73d7110b5c4125d4191263a6c3befbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f40e1d27fc5a3bd4c1cb756171aa00') in 0.014104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.152 seconds
-Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  7.643 seconds
-Domain Reload Profiling: 8794ms
-	BeginReloadAssembly (425ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (93ms)
-	RebuildCommonClasses (111ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (512ms)
-		LoadAssemblies (727ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (38ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (7644ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4017ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (156ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (366ms)
-			ProcessInitializeOnLoadAttributes (3355ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Refreshing native plugins compatible for Editor in 21.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3264 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (0.8 MB). Loaded Objects now: 3842.
-Memory consumption went from 142.5 MB to 141.7 MB.
-Total: 13.853500 ms (FindLiveObjects: 0.563100 ms CreateObjectMapping: 1.080900 ms MarkObjects: 10.915800 ms  DeleteObjects: 1.291300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/NPC.mat
+  artifactKey: Guid(a9288e17f13cc4849a27f55da8c39fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/NPC.mat using Guid(a9288e17f13cc4849a27f55da8c39fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d97ab076aa5cc6f6f808a9421781fe') in 0.013397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_zemın.mat
+  artifactKey: Guid(85cda63bd644b6b49934e7b3642f31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_zemın.mat using Guid(85cda63bd644b6b49934e7b3642f31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f61d91d38b0e86cf0602336779eab4') in 0.011971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zıplama_zemın.mat
+  artifactKey: Guid(96579b05883935b4d95a3bf021910adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zıplama_zemın.mat using Guid(96579b05883935b4d95a3bf021910adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808ffd44b694cfefeecd6a51d57493b6') in 0.013606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Savas_alanı.mat
+  artifactKey: Guid(aa553b9c6328da042af7fd46674c9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Savas_alanı.mat using Guid(aa553b9c6328da042af7fd46674c9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56135bb53cc1b0317e83d3d7b9a5ee5') in 0.038602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/tuzak.mat
+  artifactKey: Guid(72533daf1b52a244c84e316734b8299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/tuzak.mat using Guid(72533daf1b52a244c84e316734b8299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98396bb22200fe4ee2a2d511c108f37f') in 0.017518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.147608 seconds.
+  path: Assets/Textures/Bilgisayar_Emissive.png
+  artifactKey: Guid(aa852d837b43d9a4a8e1a9a6ed56a7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bilgisayar_Emissive.png using Guid(aa852d837b43d9a4a8e1a9a6ed56a7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64ac48e2c1a1e2e355f6ce40e90f4a4') in 0.018381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/Bilgisayar_Metallic.png
+  artifactKey: Guid(66913161ddf3a594e9e70ddee6db272d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bilgisayar_Metallic.png using Guid(66913161ddf3a594e9e70ddee6db272d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea66f22ffaf9726548c5b73dfd5997eb') in 0.018602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/buzdolabı ışık_Emissive.png
+  artifactKey: Guid(bc49a62db09ef35419bb31c5d3689842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/buzdolabı ışık_Emissive.png using Guid(bc49a62db09ef35419bb31c5d3689842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3666a8080d910c0797e38e573c38e40') in 0.017766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/buzdolabı ışık_Base_color.png
+  artifactKey: Guid(17c8b887f9a36db428fbe3d848c7c2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/buzdolabı ışık_Base_color.png using Guid(17c8b887f9a36db428fbe3d848c7c2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4258bdb93053bfc068f606c649c64a86') in 0.016996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 111.234524 seconds.
+  path: Assets/Textures/buzdolabı ışık_Metallic.png
+  artifactKey: Guid(773a5555e0910424e877ffb306fd7b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/buzdolabı ışık_Metallic.png using Guid(773a5555e0910424e877ffb306fd7b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817b14233f3e093e0254dda449352a7e') in 0.016381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Textures/Buzdolabı_Roughness.png
+  artifactKey: Guid(51963bbcb4632184f8de71fd8742dba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Buzdolabı_Roughness.png using Guid(51963bbcb4632184f8de71fd8742dba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04da32b0636f55720365fbd42132cdc') in 0.019123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/buzdolabı ışık_Normal.png
+  artifactKey: Guid(3e5df800eb53f8e4bbad63966e4b4f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/buzdolabı ışık_Normal.png using Guid(3e5df800eb53f8e4bbad63966e4b4f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b63bf0d880c9b77c05c466e10dde13c') in 0.020600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/Buzdolabı_Height.png
+  artifactKey: Guid(233116a81d8836e4e8a732bc68058752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Buzdolabı_Height.png using Guid(233116a81d8836e4e8a732bc68058752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ddeef9969e66411a9dd348d86382ca') in 0.017756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Textures/buzdolabı ışık_Mixed_AO.png
+  artifactKey: Guid(7e611e0291a85ed44a420673a9db4013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/buzdolabı ışık_Mixed_AO.png using Guid(7e611e0291a85ed44a420673a9db4013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8deb4e6e9204c705926b0908845646') in 0.021616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/Buzdolabı_Emissive.png
+  artifactKey: Guid(2666b51cdaa77c849af1d9036bb38f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Buzdolabı_Emissive.png using Guid(2666b51cdaa77c849af1d9036bb38f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608eba59d3ba1046d48d1d974b9eef38') in 0.018745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.858308 seconds.
+  path: Assets/Textures/Normal_Duvar_Height.png
+  artifactKey: Guid(346415784788312429f6bb7a451a644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Normal_Duvar_Height.png using Guid(346415784788312429f6bb7a451a644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ab5ca0b76c108d8c206f20e226d2b9') in 0.017901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/Pencere_Duvar_Metallic.png
+  artifactKey: Guid(39f086eb19e78f446bf795fbbb4427b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Pencere_Duvar_Metallic.png using Guid(39f086eb19e78f446bf795fbbb4427b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254b4873dfd50a9e093722dbb3de1857') in 0.021921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Pencere_Duvar_Base_color.png
+  artifactKey: Guid(6f52fc8038503f143a18fc5f5ff78852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Pencere_Duvar_Base_color.png using Guid(6f52fc8038503f143a18fc5f5ff78852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00013cda3c819dfed781867779eb90ea') in 0.018665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Textures/Normal_Duvar_Mixed_AO.png
+  artifactKey: Guid(c0ba9e285dc2a6c4596211342719057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Normal_Duvar_Mixed_AO.png using Guid(c0ba9e285dc2a6c4596211342719057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c5887e969eae9e8bc2ed84ee58ae97') in 0.023500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Textures/Normal_Duvar_Metallic.png
+  artifactKey: Guid(231be27c96b28334fb4f5411d938f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Normal_Duvar_Metallic.png using Guid(231be27c96b28334fb4f5411d938f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd28c6b9e05aac29599a09f8125bbfa4') in 0.019079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.077230 seconds.
+  path: Assets/Textures/Cop_Normal.png
+  artifactKey: Guid(860a1483fa7b130439fafeb6f665c16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cop_Normal.png using Guid(860a1483fa7b130439fafeb6f665c16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccc30db876a0c99d33c6a708dc8451c') in 0.021553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr
+  artifactKey: Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr using Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62c945e948b2a5a413383575e30b565') in 0.093842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures/Cop_Roughness.png
+  artifactKey: Guid(e1eabc08068dc674c9357d7e3a021022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cop_Roughness.png using Guid(e1eabc08068dc674c9357d7e3a021022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa510910b088ad86acb02b6f745df19d') in 0.020782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.076759 seconds.
+  path: Assets/Textures/mouse_Mixed_AO.png
+  artifactKey: Guid(31d4db4faa6e72b4e99e08f6d4d67791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mouse_Mixed_AO.png using Guid(31d4db4faa6e72b4e99e08f6d4d67791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc183308a7be8fdfa7dc8ac398d10a63') in 0.019715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Textures/Pencere_Duvar_Mixed_AO.png
+  artifactKey: Guid(3d9163bf012464d4ab0840d61972bc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Pencere_Duvar_Mixed_AO.png using Guid(3d9163bf012464d4ab0840d61972bc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ca388c293f9e13280b3c8b7a652198') in 0.023969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Textures/Pencere_Duvar_Normal.png
+  artifactKey: Guid(174f61c6058c81448878cd40e1313fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Pencere_Duvar_Normal.png using Guid(174f61c6058c81448878cd40e1313fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd903a0eb5dd6524824641b7cab5806ec') in 0.020509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Textures/Pencere_Perde_Height.png
+  artifactKey: Guid(ab4982e62de543747a368d40f1ebbb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Pencere_Perde_Height.png using Guid(ab4982e62de543747a368d40f1ebbb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff35af03b6a7eaa9cb723ae3a100e8c') in 0.016450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 49.444291 seconds.
+  path: Assets/Textures/Kalorifer_Height.png
+  artifactKey: Guid(beae0b48e633af049b7340ec8defc4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kalorifer_Height.png using Guid(beae0b48e633af049b7340ec8defc4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6d1e062c43563b212ffdb46c202d63') in 0.014259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Textures/Kalorifer_Mixed_AO.png
+  artifactKey: Guid(80623952cf748f24dbe327c148dc91ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kalorifer_Mixed_AO.png using Guid(80623952cf748f24dbe327c148dc91ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705ba753a27e16476c822dcafa6526c6') in 0.021979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Textures/Kalorifer_Metallic.png
+  artifactKey: Guid(beccfabe2ff18c141862726b2d996806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kalorifer_Metallic.png using Guid(beccfabe2ff18c141862726b2d996806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a540a4e89b8736832a1ed21e750e47c9') in 0.020676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 80.003793 seconds.
+  path: Assets/Textures/cop_006_Roughness.png
+  artifactKey: Guid(c40fe1d7098db0e4b8f5804cd6715f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cop_006_Roughness.png using Guid(c40fe1d7098db0e4b8f5804cd6715f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0269eff1c6555d95b73af103eeaecbe9') in 0.017782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/cop_08_Roughness.png
+  artifactKey: Guid(b3a1be3a2647b1244ac3360985ecba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cop_08_Roughness.png using Guid(b3a1be3a2647b1244ac3360985ecba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62f31a3112a09e569c63b403980b1e0') in 0.019200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.479193 seconds.
+  path: Assets/Textures/cop_006_Metallic.png
+  artifactKey: Guid(7c91d4d7980b4774c8271a004586c7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cop_006_Metallic.png using Guid(7c91d4d7980b4774c8271a004586c7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6c086ed3ebdb2998fb913bbf04a95c') in 0.017163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Cop_Height.png
+  artifactKey: Guid(f4185e71fe7db1149a06cb551c7ff08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cop_Height.png using Guid(f4185e71fe7db1149a06cb551c7ff08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa6ca06c8d80dc3f871dbad644d03b9') in 0.024717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/cop_08_Metallic.png
+  artifactKey: Guid(2ca702ad3d0c93043b3316efccfc3f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cop_08_Metallic.png using Guid(2ca702ad3d0c93043b3316efccfc3f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5650733f23a49f4b6f8d48ec044485f') in 0.023430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.232447 seconds.
+  path: Assets/Textures/Zemin_Height.png
+  artifactKey: Guid(6cd4f742fe6063544944b2d130d5131a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Zemin_Height.png using Guid(6cd4f742fe6063544944b2d130d5131a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c080bb17bbd62fc1fbe0ec17172e600a') in 0.015519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Textures/Zemin_Mixed_AO.png
+  artifactKey: Guid(42f6e0a495000914ba4f72791d55779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Zemin_Mixed_AO.png using Guid(42f6e0a495000914ba4f72791d55779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b645a397a805c28bd429a7fb485846dc') in 0.017950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Textures/Zemin_Normal.png
+  artifactKey: Guid(bbc2f0e68931f61429c13e9e08ce4eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Zemin_Normal.png using Guid(bbc2f0e68931f61429c13e9e08ce4eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a8708902b9b9fbb83706cde6698e15') in 0.019078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.196630 seconds.
+  path: Assets/Textures/HeadPhone_Metallic.png
+  artifactKey: Guid(12f50bb77207df94b812cd2ca15c4f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HeadPhone_Metallic.png using Guid(12f50bb77207df94b812cd2ca15c4f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f87a4ddb55d215a29e1e9a5aaa892c0') in 0.014470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/Masa_Metallic.png
+  artifactKey: Guid(9e012fa0805084e458a22753542a3bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Masa_Metallic.png using Guid(9e012fa0805084e458a22753542a3bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9e726eaef646dd089dd429ebdb2bee') in 0.026742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 154.660820 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c57fd990f40acaca41d2c4f15025bf') in 0.079238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Textures/Masa_Mixed_AO.png
+  artifactKey: Guid(cda632debff2c4644af81676246b42ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Masa_Mixed_AO.png using Guid(cda632debff2c4644af81676246b42ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94b4e135df10889c7974bb68c6784bb') in 0.018402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Textures/Masa_Height.png
+  artifactKey: Guid(c365775f71348634d96d9deb2b523158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Masa_Height.png using Guid(c365775f71348634d96d9deb2b523158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce1a28b843e58a212cd5045e2f65e60') in 0.017383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 65.782200 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/duvar.mat
+  artifactKey: Guid(73d7110b5c4125d4191263a6c3befbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/duvar.mat using Guid(73d7110b5c4125d4191263a6c3befbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563fa75e7211fc31d0e6dafa9f97e176') in 0.412286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru.mat
+  artifactKey: Guid(d2e049c9e83d6ba4eb8d3df0c38b9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru.mat using Guid(d2e049c9e83d6ba4eb8d3df0c38b9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b056c33d40671af4cbee4eb6c451337d') in 0.038775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_001.mat
+  artifactKey: Guid(c226db9ed8353e04c8e72b95b110cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_001.mat using Guid(c226db9ed8353e04c8e72b95b110cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9353cb1d52ef2e80e50ec920bbf96cd7') in 0.021399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/NPC.mat
+  artifactKey: Guid(a9288e17f13cc4849a27f55da8c39fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/NPC.mat using Guid(a9288e17f13cc4849a27f55da8c39fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e8620d3947ac7b9b3b117a94a88b84') in 0.196269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Savas_alanı.mat
+  artifactKey: Guid(aa553b9c6328da042af7fd46674c9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Savas_alanı.mat using Guid(aa553b9c6328da042af7fd46674c9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee4861e253fb5fa6192c9efa3d2b4ef') in 0.021605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/tuzak.mat
+  artifactKey: Guid(72533daf1b52a244c84e316734b8299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/tuzak.mat using Guid(72533daf1b52a244c84e316734b8299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf1c65196904964f786a40c63eff3de') in 0.021573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.292416 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Boss_1_Normal_OpenGL.png
+  artifactKey: Guid(7bba5777198476742b4e9f702b1d65eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Boss_1_Normal_OpenGL.png using Guid(7bba5777198476742b4e9f702b1d65eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624d73792717d5bb7ee8c26f8fec7def') in 0.016084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru.mat
+  artifactKey: Guid(c03cf7abd0b5af242bca9f96e1b16f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru.mat using Guid(c03cf7abd0b5af242bca9f96e1b16f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84750843ec06da946dd95a423a788ca') in 0.014976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru.mat
+  artifactKey: Guid(d2e049c9e83d6ba4eb8d3df0c38b9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zemın_bossa_dogru.mat using Guid(d2e049c9e83d6ba4eb8d3df0c38b9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80658587f8faa234abbb7bf7008b09ff') in 0.021084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/NPC_Normal_OpenGL.png
+  artifactKey: Guid(a5a3b2eaf38f644448f96bdc9c8d510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/NPC_Normal_OpenGL.png using Guid(a5a3b2eaf38f644448f96bdc9c8d510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f8b695f0187f3a8c603a5fd41ad2d6') in 0.019284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/duvar.mat
+  artifactKey: Guid(73d7110b5c4125d4191263a6c3befbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/duvar.mat using Guid(73d7110b5c4125d4191263a6c3befbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196c34884d3b991fa1c8b0d38495b3c5') in 0.020680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Normal_OpenGL.png
+  artifactKey: Guid(5373c9de56cb8184da2177f7ecaa70be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_zemın_Normal_OpenGL.png using Guid(5373c9de56cb8184da2177f7ecaa70be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4831c75ede4f22c78ead8978d3e3d0a8') in 0.020613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_zemın.mat
+  artifactKey: Guid(85cda63bd644b6b49934e7b3642f31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_zemın.mat using Guid(85cda63bd644b6b49934e7b3642f31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a619895e258932fc4ab84800890a3673') in 0.019631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/tuzak_Normal_OpenGL.png
+  artifactKey: Guid(1d3643f9833a57b4c949874aa765cc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/tuzak_Normal_OpenGL.png using Guid(1d3643f9833a57b4c949874aa765cc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756a35ca9adf9050a36bfb203b7cf225') in 0.021348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/zıplama_zemın_Normal_OpenGL.png
+  artifactKey: Guid(9f6fee5e5bdaa734f9ff11f14a931cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/zıplama_zemın_Normal_OpenGL.png using Guid(9f6fee5e5bdaa734f9ff11f14a931cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999349bcb6570e4b3da8f3955a1b696c') in 0.023264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/Kopru_Normal_OpenGL.png
+  artifactKey: Guid(de316e2fe0a66a043b7a9d6267810c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/Kopru_Normal_OpenGL.png using Guid(de316e2fe0a66a043b7a9d6267810c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79604fee25642d5e667274bbe333498a') in 0.023547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/Teen_Fight_FBX/tuzak.mat
+  artifactKey: Guid(72533daf1b52a244c84e316734b8299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teen_Fight_FBX/tuzak.mat using Guid(72533daf1b52a244c84e316734b8299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cef1be45ed45998372d95ab00cd107') in 0.024196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
