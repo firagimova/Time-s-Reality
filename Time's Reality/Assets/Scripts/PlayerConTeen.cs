@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerConTeen : MonoBehaviour
 {
-    float moveSpeed = 5f;
+    float moveSpeed = 18f;
     float rotationSpeed = 130f;
-    float jumpForce = 5f;
+    float jumpForce = 9f;
 
     float horizontalInput;
     float verticalInput;
@@ -17,6 +17,11 @@ public class PlayerConTeen : MonoBehaviour
 
     Rigidbody rb;
     Animator anim;
+
+    public GameObject enemy;
+
+    float attackCooldown = 2f; // Cooldown time in seconds between attacks
+    float lastAttackTime = -2f;
 
 
     void Start()
@@ -45,24 +50,34 @@ public class PlayerConTeen : MonoBehaviour
         // When I press shift, the character will run
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            moveSpeed = 10f;
+            moveSpeed = 25f;
             isRunning = true;
         }
         else
         {
             isRunning = false;
-            moveSpeed = 5f;
+            moveSpeed = 18f;
         }
 
+        //get distance between the player and the enemy
+        float distance = Vector3.Distance(transform.position, enemy.transform.position);
+
+
+
+
         //if we press the left click, the character will attack
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) )
         {
             isAttacking = true;
+            
         }
         else
         {
             isAttacking = false;
         }
+
+        
+        
 
         //when we press space, the character will jump
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -79,6 +94,8 @@ public class PlayerConTeen : MonoBehaviour
         anim.SetBool("isAttacking", isAttacking);
         anim.SetBool("isGrounded", isGrounded);
 
+
+
     }
 
 
@@ -87,6 +104,20 @@ public class PlayerConTeen : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+        }
+        
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        //if you collide with the enemy, the enemy will take damage
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            if (isAttacking)
+            {
+                print("Enemy hit");
+                enemy.GetComponent<Boss>().health -= 50;
+            }
         }
     }
 }
