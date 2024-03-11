@@ -8,7 +8,7 @@ public class end : MonoBehaviour
     void Start()
     {
         //go to scene 0 after 5 seconds
-        Invoke("GoToScene0", 5);
+        Invoke("GoToScene0", 9);
     }
 
     // Update is called once per frame

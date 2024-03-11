@@ -7,7 +7,7 @@ public class Slides : MonoBehaviour
 {
     public GameObject[] slides;
 
-    private float changeTime = 3f; // Time to wait before changing slides
+    private float changeTime = 5f; // Time to wait before changing slides
     private float timer;
     private int currentSlideIndex = 0;
 

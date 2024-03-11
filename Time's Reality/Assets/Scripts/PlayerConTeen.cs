@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerConTeen : MonoBehaviour
 {
-    float moveSpeed = 18f;
+    public float moveSpeed = 18f;
+    public float orjinalMoveSpeed = 18f;
+    public float runSpeed = 25f;
     float rotationSpeed = 130f;
     float jumpForce = 9f;
 
@@ -50,13 +52,13 @@ public class PlayerConTeen : MonoBehaviour
         // When I press shift, the character will run
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            moveSpeed = 25f;
+            moveSpeed = runSpeed;
             isRunning = true;
         }
         else
         {
             isRunning = false;
-            moveSpeed = 18f;
+            moveSpeed = orjinalMoveSpeed;
         }
 
         //get distance between the player and the enemy
@@ -108,7 +110,7 @@ public class PlayerConTeen : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         //if you collide with the enemy, the enemy will take damage
         if (other.gameObject.CompareTag("Enemy"))
@@ -117,7 +119,7 @@ public class PlayerConTeen : MonoBehaviour
             {
                 isAttacking = false;
                 print("Enemy hit");
-                enemy.GetComponent<Boss>().health -= 50;
+                enemy.GetComponent<Boss>().health -= 10;
                 lastAttackTime = Time.time;
             }
         }
