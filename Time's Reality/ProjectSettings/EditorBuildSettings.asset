@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 8d792d51733abc5429db1deb7e1b60c2
+  - enabled: 1
+    path: Assets/Scenes/YoungRoom.unity
+    guid: 09afc27a9c1ecf641b17d5c44911f045
+  - enabled: 1
+    path: Assets/Scenes/TeenFight.unity
+    guid: 85f1c0305da6fc1418f21d0f31fa6099
+  - enabled: 1
+    path: Assets/Scenes/TeentoYoung.unity
+    guid: 00f2567702e43f040b56c5ef2b567ea5
+  - enabled: 1
+    path: Assets/Scenes/YoungFight.unity
+    guid: f31b1796efa40f046adf5742004eadef
+  - enabled: 1
+    path: Assets/Scenes/YoungtoEnd.unity
+    guid: 9a711b8efd8419c45adf50581c695287
+  - enabled: 1
+    path: Assets/Scenes/YoungRoEnd.unity
+    guid: de252871e8f616241bf684e30e432d05
   m_configObjects: {}
